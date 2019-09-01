@@ -17,8 +17,7 @@
     "test:coverage": "node_modules/.bin/nyc --require babel-core/register npm run test:mocha",
     "test:mocha": "mocha --opts .mocha.opts $(find src -name '*-test.js')",
     "test:watch": "npm test | npm run watch",
-    "watch": "npm-watch",
-    "postinstall": "opencollective postinstall"
+    "watch": "npm-watch"
   },
   "watch": {
     "test": {
